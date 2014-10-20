@@ -6,7 +6,8 @@ include node_modules/make-lint/index.mk
 TESTS = test/application \
 	test/context/* \
 	test/request/* \
-	test/response/*
+	test/response/* \
+	test/acceptance
 
 test:
 	@NODE_ENV=test ./node_modules/.bin/mocha \
