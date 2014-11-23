@@ -39,6 +39,15 @@
 
   Get request original URL.
 
+### request.fullurl
+
+  Get full request URL, include `protocol`, `host` and `url`.
+
+```js
+this.request.fullurl
+// => http://example.com/foo/bar?q=1
+```
+
 ### request.path
 
   Get request pathname.
